@@ -1,0 +1,374 @@
+.news-view{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    max-height: 150vh;
+    padding: 25px;
+}
+.container-news{
+    padding-top: 35px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+}
+.tab-new{
+    width: 100%;
+    height: 240px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.img-new{
+    width: 9%;
+    height: 100%;
+    box-sizing:border-box;
+   
+
+}
+
+.img-new img{
+    height: 100%;
+    width: auto;
+    position: absolute;
+}
+.new-info{
+    width: 91%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: var(--primary--pink);
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.new-info .padd-info {
+    width: 13%;
+    height: 100%;
+}
+
+.new-info > div:last-of-type{
+    width: 87%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 5px;
+} 
+.new-info aside{
+    width: 100%;
+    margin: 1px 0;
+}
+.new-info .title-news{
+    background-color: var(--ocre--);
+    display: inline;
+    font-family: var(--font--fira--sans--semibold--);
+    font-size: 1.2rem;
+    color: white;
+    padding: 3px 3px;
+    margin-bottom: 1px;
+}
+
+
+.status-info p{
+    width: 100%;
+    padding:2px 3px;
+    color: rgba(255, 255, 255, 0.733) !important;
+    box-sizing: border-box;
+    font-family: var(--font--fira--sans--semibold--) ;
+    font-weight: lighter !important; 
+    
+}
+.status-info p a{
+    color: rgba(255, 255, 255, 0.733);
+    text-decoration: solid;
+   height: 100%;
+   font-family: var(--font--fira--sans--semibold--);
+}
+.italic{
+    font-style: italic;
+}
+
+.status-info .linknew{
+    width: auto;
+    display: flex;
+    justify-content: left;
+    
+}
+.status-info .linknew  a{
+    color: rgba(255, 255, 255, 0.904) !important;
+    
+}
+.status-info i{
+font-family: 'Material Icons';
+font-weight: normal;
+font-style: normal;
+font-size: 20px;
+line-height: 1;
+letter-spacing: normal;
+text-transform: none;
+display: block;
+white-space: nowrap;
+word-wrap: normal;
+direction: ltr;
+-webkit-font-smoothing: antialiased;
+padding-bottom: 15px;
+box-sizing: border-box;
+}
+.new-info > div:last-of-type aside:last-of-type{
+    color: white;
+    font-family: var(--font--fira--sans--semibold--) ;
+    font-weight: lighter
+}
+
+
+
+
+
+/* fichas de noticias que estan reversa */
+
+
+
+
+.tab-new-reverse{
+    width: 100%;
+    height: 240px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.img-new-reverse{
+    width: 9%;
+    height: 100%;
+    box-sizing:border-box;
+   
+}
+
+.img-new-reverse img{
+    height: 100%;
+    width: auto;
+    position: absolute;
+    right: 0;
+}
+.new-info-reverse{
+    width: 91%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: var(--primary--pink);
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.new-info-reverse .padd-info-reverse {
+    width: 13%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.new-info-reverse > div:last-of-type{
+    width: 87%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 5px;
+    padding-left: 16px;
+} 
+.new-info-reverse aside{
+    width: 100%;
+    margin: 1px 0;
+}
+.new-info-reverse .title-news-reverse{
+    background-color: var(--ocre--);
+    display: inline !important;
+    font-family: var(--font--fira--sans--semibold--);
+    font-size: 1.2rem;
+    color: white;
+    padding: 3px 3px;
+    margin-bottom: 1px;
+}
+
+
+.status-info-reverse p{
+    width: 100%;
+    padding:2px 3px;
+    color: rgba(255, 255, 255, 0.733) !important;
+    box-sizing: border-box;
+    font-family: var(--font--fira--sans--semibold--) ;
+    font-weight: lighter !important; 
+    
+}
+.status-info-reverse p a{
+    color: rgba(255, 255, 255, 0.733);
+    text-decoration: solid;
+   height: 100%;
+   font-family: var(--font--fira--sans--semibold--);
+}
+.italic{
+    font-style: italic;
+}
+
+.status-info-reverse .linknew-reverse{
+    width: auto;
+    display: flex;
+    justify-content: left;
+    
+}
+.status-info-reverse .linknew-reverse  a{
+    color: rgba(255, 255, 255, 0.904) !important;
+    
+}
+.status-info-reverse i{
+font-family: 'Material Icons';
+font-weight: normal;
+font-style: normal;
+font-size: 20px;
+line-height: 1;
+letter-spacing: normal;
+text-transform: none;
+display: block;
+white-space: nowrap;
+word-wrap: normal;
+direction: ltr;
+-webkit-font-smoothing: antialiased;
+padding-bottom: 15px;
+box-sizing: border-box;
+}
+.new-info-reverse > div:last-of-type aside:last-of-type{
+    color: white;
+    font-family: var(--font--fira--sans--semibold--) ;
+    font-weight: lighter
+}
+
+
+@media  (max-width: 768px){
+    .news-view {
+        max-height: auto;
+        padding: 25px;
+    }
+    .container-news {
+        padding-top: 35px;
+        width: 100%;
+       
+    }
+    .tab-new {
+        width: 100%;
+        height: auto;
+        
+    }
+    .title-news{
+        background-color: transparent !important;
+        text-align:center;
+        display: inline-block !important;
+    }
+    .img-new{
+        width: 100%;
+        height: 150px;
+        background-color: var(--primary--pink);
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        box-sizing: border-box;
+      
+    }
+    .img-new img {
+        margin: auto;
+        width: auto;
+        height: 130px;
+        position: absolute;
+    }
+    .new-info {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+        background-color: var(--primary--pink);
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .new-info .padd-info {
+        display: none;
+    }
+    .new-info > div:last-of-type {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding: 25px 20px;
+    }
+    .mobil-new-title{
+        background-color: var(--ocre--);
+        box-sizing: border-box;
+        padding: 10px 20px;
+    }
+    /* 
+    
+    
+    
+    
+    */
+
+
+    .padd-info-reverse{
+        display: none;
+    }
+    .tab-new-reverse {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        position: relative;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+    }
+    .img-new-reverse {
+        width:100%;
+        height: 150px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: var(--primary--pink);
+    }
+    .img-new-reverse img {
+        height: 130px;
+        width: auto;
+        position: absolute;
+        right: auto;
+    }
+    .new-info-reverse {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+        background-color: var(--primary--pink);
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+}

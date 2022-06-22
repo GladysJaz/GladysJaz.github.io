@@ -1,0 +1,47 @@
+.Not-found{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.Not-found .container-notfound{
+    width: 90%;
+    margin: auto;
+    
+}
+.Not-found .container-notfound .emoji{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px !important;
+}
+.Not-found .container-notfound .emoji i{
+    font-size: 7rem;
+    color: #f39200;
+}
+.Not-found .container-notfound img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width:768px) {
+    .Not-found{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 1024px){
+    .Not-found{
+        width: 35%;
+        margin: auto;
+    }
+}

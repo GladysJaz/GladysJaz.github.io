@@ -1,0 +1,53 @@
+[
+    {
+        "id":1,
+        "nombre":"Alondra Osorio Ginez",
+        "Universidad":"Universidad Autónoma de la Ciudad de México",
+        "carrera": "Creación Literaria",
+        "cargo":"Redacción",
+        "semblanza1":"Estudiante de la Universidad Autónoma de la Ciudad de México de la carrera en Creación Literaria. Durante su estancia colaboró en equipo de investigación social, apoyó en la revisión de textos académicos y en la corrección de estilos de libros  publicados.",
+        "foto":"http://comunicacionculturaysociedad.org/public/img/socialservice/perfilService.png",
+        "correo":""
+    },
+    {
+        "id":2,
+        "nombre":"Hugo Octavio Luna Almazan",
+        "cargo":"Investigador Social",
+        "Universidad":"Universidad Autónoma de la Ciudad de México",
+        "carrera": "Historia y Sociedad Contemporánea",
+        "semblanza1":"Estudiante de la carrera de, Historia y Sociedad Contemporánea en la Universidad Autónoma de la Ciudad de México. Él colaboró en la gestión y revisión de materiales con un enfoque en los estudios de comunicación, participó en la elaboración y gestión de entrevistas y también apoyó en el diseño y  montaje de publicaciones para campañas de redes sociales y trabajo en la búsqueda y resultados de investigaciones sociales.",
+        "foto":"http://comunicacionculturaysociedad.org/public/img/socialservice/perfilService.png",
+        "correo":""
+    },
+    {
+        "id":3,
+        "nombre":"Estela Irene de Leon Trejo",
+        "cargo":"Digital",
+        "Universidad":"Universidad Autónoma de la Ciudad de México",
+        "carrera": "Comunicación y Cultura",
+        "semblanza1":"Estudiante de la Universidad Autónoma de la Ciudad de México de licenciatura en Comunicación y Cultura. En este periodo colaboró en la gestión de redes sociales, administró páginas oficiales como Facebook e Instagram donde realizó parrillas de contenido, publicaciones y análisis de las mismas, también participó en la investigación social con resultados oficiales para la A.C Comunicación, cultura y sociedad.",
+        "foto":"http://comunicacionculturaysociedad.org/public/img/socialservice/perfilService.png",
+        "correo":""
+    },
+    {
+        "id":4,
+        "nombre":"Jaqueline Flores Valtierra",
+        "Universidad":"Universidad Autónoma de la Ciudad de México",
+        "carrera": "Comunicación y Cultura",
+        "cargo":"Digital",
+        "semblanza1":"Estudiante de la Universidad Autónoma de la Ciudad de México de licenciatura en Comunicación y Cultura. En este periodo colaboró en la investigación digital y de campo sobre medios de comunicación masivos, apoyó en la creación de productos comunicativos para redes sociales y participó con la creación de textos informativos.",
+        "foto":"http://comunicacionculturaysociedad.org/public/img/socialservice/perfilService.png",
+        "correo":""
+    },
+    {
+        "id":5,
+        "nombre":" Mauricio Nabor de la Cruz Gallardo",
+        "Universidad":"Universidad Autónoma de la Ciudad de México",
+        "carrera": "Comunicación y Cultura",
+        "cargo":"Digital",
+        "semblanza1":"Estudiante de la Universidad Autónoma de la Ciudad de México de licenciatura en Comunicación y Cultura. En este periodo colaboró en la investigación sobre temas cinematográficos, realizó trabajo de campo como entrevistas e investigación etnográfica y apoyó en la recolección y clasificación de datos empíricos de los informantes.",
+        "foto":"http://comunicacionculturaysociedad.org/public/img/socialservice/perfilService.png",
+        "correo":""
+    }
+    
+]

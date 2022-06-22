@@ -1,0 +1,479 @@
+/* este estilo es para esperar la carga de la pagina*/
+
+
+
+/************************************/
+.curation{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    
+    position: relative;
+}
+.curation > div:first-of-type{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0px 0px;
+    
+}
+.container-image-curation{
+    width: 80%;
+    margin: auto;
+}
+.container-image-curation section{
+    width: 100%;
+    margin: auto;
+}
+.container-image-curation section img{
+    width: 92%;
+    height: auto;
+}
+.curation .curation-text    {
+    width: 90%;
+    margin: auto;
+}
+.curation .main-title,
+.curation .main-tems,
+.curation .main-axes,
+.curation .main-material{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.curation .main-title h1{
+    width: 100%;
+    font-family: var(--font--fira--sans--semibold--);
+}
+
+
+.curation .curation-text .main-title h1 {
+    color: var(--ocre--);
+    font-weight: bold;
+}
+.curation .curation-text .main-title p{
+    font-family: var(--font--lato--regular--);
+    font-size: 1.3rem;
+    padding-left:30px;
+    float: left;
+}
+
+.curation .curation-text .title-tems,
+.curation .curation-text .title-axes,
+.curation .curation-text .title-material{
+    color: var(--primary--pink);
+    width: 100%;
+    font-family: var(--font--fira--sans--semibold--);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    
+}
+.curation .curation-text .main-axes > div:last-of-type,
+.curation .curation-text .main-tems > div:last-of-type,
+.curation .curation-text .main-material > div:last-of-type{
+    width: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    height: 140px;
+    box-sizing: border-box;
+}
+.curation .curation-text .main-material > div:last-of-type .container-icons,
+.curation .curation-text .main-tems > div:last-of-type .container-icons,
+.curation .curation-text .main-axes > div:last-of-type .container-icons{
+    width: 15%;
+    height: 100%;
+}
+.curation .curation-text .main-material > div:last-of-type .container-icons > div:first-of-type,
+.curation .curation-text .main-tems > div:last-of-type .container-icons > div:first-of-type,
+.curation .curation-text .main-axes > div:last-of-type .container-icons > div:first-of-type{
+
+    height: 55%;
+    box-sizing: border-box;
+    padding-bottom: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.curation .curation-text .main-material > div:last-of-type .container-icons > div:first-of-type img,
+.curation .curation-text .main-tems > div:last-of-type .container-icons > div:first-of-type img,
+.curation .curation-text .main-axes > div:last-of-type .container-icons > div:first-of-type img{
+
+    height:100%;
+    width: auto;
+}
+.curation .curation-text .main-material > div:last-of-type .container-icons > div:last-of-type,
+.curation .curation-text .main-tems > div:last-of-type .container-icons > div:last-of-type,
+.curation .curation-text .main-axes > div:last-of-type .container-icons > div:last-of-type{
+    height:30%;
+    width: 100%;
+    text-align: center;
+    font-family: var(--font--fira--sans--semibold--);
+    color: var(--primary--pink);
+    text-transform: uppercase;
+}
+.title-tems,
+.title-axes,
+.title-material{
+    
+    height: 100%;
+}
+
+
+/* 
+    Estilos para los carruseles de curadurias
+*/
+
+.curation-text .main-title header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 70px;
+}
+.curation-text .main-title header > div:first-of-type{
+    width: 7%;
+    height: 100%;
+}
+.curation-text .main-title header > div:first-of-type IMG{
+    height: 100%;
+    width: auto;
+
+}
+.curation-text .main-title header > h1{
+    width: 93%;
+    height: 100%;
+    line-height: 1em;
+    color: var(--primary--pink) !important;
+    text-transform: uppercase;
+}
+
+
+/* Estilos carrusel fichas tecnicas */
+.contain-curation-carrousel{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 410px;
+    margin-top: 10px;
+  ;
+}
+.dot-container{
+    display: flex;
+    justify-content: right;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+.dot-page {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(10, 10, 10);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    
+}
+#container-technical-sheets{
+    height: 330px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.c-1,
+.c-3{
+    width: 38%;
+    height:100% ;
+    background-color:var(--primary--pink);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.c-2{
+    background-color: rgb(190, 190, 190);
+    width: 23%;
+    height: 100%;
+    margin-left: .5%;
+    margin-right: .5%;
+    box-sizing: border-box;
+    padding: 20px 15px 10px 15px;
+    font-family: var(--font--lato--regular--);
+}
+.text-curation{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.text-curation > div:first-of-type{
+    height: 75%;
+    width: 100%;
+}
+.text-curation > div:last-of-type{
+    height: 25%;
+    width: 100%;
+}
+.icon-curation{
+    width: 15%;
+    height: 100%;
+    padding-top: 20px;
+}
+.icon-curation img{
+    width: 80%;
+    height: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    
+}
+.dates-curation{
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.ficha{
+    position: absolute;
+    top: -15px;
+    width: 30px;
+    height: 30px;
+    right: 10px;
+}
+.ficha a{
+    width: 100%;
+    height: 100%;
+
+}
+.ficha img{
+    width: 100%;
+    height: 100%;
+}
+.curious-fact{
+    width: 100%;
+    height: 20%;
+    background-color: var(--ocre--);
+    box-sizing: border-box;
+    padding-right: 20px !important;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+
+}
+ #container-technical-sheets .curious-fact p{
+    font-size: 13px;
+    font-family:var(--font--lato--regular--);
+    color: white;
+    width: 92%;
+    height: 95%;
+    overflow: hidden;
+
+    box-sizing: border-box;
+   
+}
+.title-curation, .subtitle-curation, .text-date-shhets{
+    width: 100%;
+    float: none;
+    box-sizing: border-box;
+    padding-left: 10px !important;
+    padding-right: 5px;
+    color: white;
+}
+.title-curation{
+    padding-top: 20px;
+    font-size: 20px !important;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+.subtitle-curation{
+    font-size: 15px !important;
+    font-style: italic;
+}
+.text-date-shhets{
+    font-size: 12px !important;
+    color: white;
+}
+
+.resumen {
+    height: 85%;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+
+}
+.link-complete-resumen{
+    height: 10%;
+    margin-top: 5%;
+        display: flex;
+        justify-content: right;
+    cursor: pointer;
+}
+.link-complete-resumen a{
+    color: black;
+    font-family: var(--font--lato--regular--) !important;
+    float: right !important;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.link-complete-resumen > p{
+    width: auto;
+    display: inline;
+
+}
+.personal-close{
+    margin: 20px auto !important;
+}
+#ex1{
+    font-size: 1.2rem;
+    min-width: 800px;
+}
+#text-complete{
+      font-size: 1.3rem !important;
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .curation{
+        padding: 0 0px;
+        padding-bottom: 50px;
+    }
+   
+    
+
+    .container-image-curation {
+        width: 100%;
+        margin: auto;
+    }
+    .container-image-curation section img {
+        width: 100%;
+        height: auto;
+        margin: auto;
+      
+    }
+    .container-image-curation section {
+        width: 100%;
+        margin: auto;
+        overflow-x: hidden;
+    }
+    .curation .curation-text .main-title p {
+        font-family: var(--font--lato--regular--);
+        font-size: 1.3rem;
+        padding-left: 0px;
+        float: left;
+    }
+    .curation .curation-text .main-tems > div:last-of-type{
+        font-size: 1.rem !important;
+    }
+    .curation .curation-text .font-mobil{
+        font-size: 15px !important;
+    }
+    .curation .curation-text .main-material{
+
+        margin-bottom: 20px;
+    }
+    .curation .curation-text .main-tems > div:last-of-type .container-icons,
+    .curation .curation-text .main-axes > div:last-of-type .container-icons,
+    .curation .curation-text .main-material > div:last-of-type .container-icons{
+        width: 50%;
+        font-size: 15px;
+    }
+    .curation .curation-text .main-tems > div:last-of-type,
+    .curation .curation-text .main-axes > div:last-of-type,
+    .curation .curation-text .main-material > div:last-of-type
+    {
+        justify-content: left;
+    }
+    .curation .curation-text .main-tems > div:last-of-type{
+        height: auto;
+    }
+    .curation .curation-text .main-tems > div:last-of-type .container-icons{
+        height: 130px;
+    }
+    .curation .curation-text .main-tems > div:last-of-type .container-icons > div:first-of-type img,
+    .curation .curation-text .main-axes > div:last-of-type .container-icons > div:first-of-type img,
+    .curation .curation-text .main-material > div:last-of-type .container-icons > div:first-of-type img{
+        height: 60px;
+        width: auto;
+    }
+    .curation .main-tems{
+        margin-bottom: 0;
+    }
+    .curation-text .main-title header > div:first-of-type {
+        width: 100%;
+        height: 50%;
+    }
+    .curation-text .main-title header {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 120px;
+    }
+    .curation-text .main-title header > h1 {
+        width: 100%;
+        height: 50%;
+        line-height: -em;
+        color: var(--primary--pink) !important;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+
+
+    .c-1, .c-3 {
+        width: 100% !important;
+        height: 100%;
+        background-color: var(--primary--pink);
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .c-2 {
+
+       
+        background-color: rgb(190, 190, 190);
+        width: 100%;
+        height: 100%;
+        margin-left: .5%;
+        margin-right: .5%;
+        box-sizing: border-box;
+        padding: 20px 15px 10px 15px;
+        font-family: var(--font--lato--regular--);
+        
+    }
+    #container-technical-sheets {
+        height: 330px;
+        width: 100%;
+        box-sizing: border-box;
+        overflow: auto;
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    #container-technical-sheets >div{
+        margin-bottom: 10px;
+    }
+    .curation .curation-text .main-axes > div:last-of-type,
+    .curation .curation-text .main-material >div:last-of-type {
+        height: auto;
+    }
+    
+    .curation .curation-text .main-axes,
+    .curation .curation-text .main-material{
+        margin-bottom: 110px;
+    }
+}

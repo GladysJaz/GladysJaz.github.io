@@ -1,0 +1,45 @@
+.container-map{
+    width: 100%;
+    min-height: 100vh;
+}
+.map-logo{
+    width: 85%;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+.container-map .map-logo h1,
+.container-map .map-logo h2{
+    font-family: var(--font--fira--sans--semibold--);
+    width:  100%;
+    margin: 0 auto;
+}
+.container-map .map-logo h1{
+    color: var(--ocre--);
+    font-size: 4.5rem;
+}
+.container-map .map-logo h2{
+    color: var(--primary--pink);
+    font-size: 2.3rem;
+    letter-spacing: 1px;
+}
+.mapa-img
+{
+    box-sizing: border-box;
+    padding-top: 20px;
+    width:  45%;
+    margin: auto;
+}
+.mapa-img img{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:769px) {
+    .mapa-img{
+        box-sizing: border-box;
+        padding-top: 20px;
+        width:  85%;
+        margin: auto;
+    }
+}

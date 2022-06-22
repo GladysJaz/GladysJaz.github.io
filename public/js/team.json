@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "nombre":"Leonel Sagahón",
+        "cargo":"Director General",
+        "semblanza1":"Es diseñador, artista y editor. Estudió en la Escuela de Diseño del INBA (Edinba), la UNAM y el ITAM. Imparte clases, cursos y talleres relacionados con el diseño, la edición, el arte y la comunicación. Su trabajo ha sido expuesto en México y el extranjero y ha ganado diferentes premios entre los que destacan los otorgado por la BICM, la BND, la Caniem, a! Diseño y la FIL. Es profesor investigador de laUACM, donde coordina el Laboratorio de Comunicación Gráfica y Semilla Festival Internacional del Libro y la Lectura en San Lorenzo Tezonco.",
+        "foto":"http://comunicacionculturaysociedad.org/public/img/team/Leonel.png",
+        "correo":""
+    },
+    {
+        "id":2,
+        "nombre":"Jerónimo Repoli",
+        "cargo":"Director Editorial",
+        "semblanza1":"Doctor en Periodismo y Ciencias de la Comunicación. Es profesor investigador de tiempo completo del Departamento de Educación y Comunicación de la UAM-X, donde coordina la Maestría en Comunicación y Política de la División de Ciencias Sociales y Humanidades, desde febrero de 2018. También es miembro Nivel I del Sistema Nacional de Investigadores de CONACYT. Además, coordina el Grupo de Investigación Teorías y Metodologías de Investigación en Comunicación de la AMIC desde el 2005. Del 2016 al 2018, cDoctor en Periodismo y Ciencias de la Comunicación. Es profesor investigador de tiempo completo del Departamento de Educación y Comunicación de la UAM-X, donde coordina la Maestría en Comunicación y Política de la División de Ciencias Sociales y Humanidades, desde febrero de 2018. También es miembro Nivel I del Sistema Nacional de Investigadores de CONACYT. Además, coordina el Grupo de Investigación Teorías y Metodologías de Investigación en Comunicación de la AMIC desde el 2005. Del 2016 al 2018, coordinó el Grupo de Trabajo Estudios de Recepción de la Asociación Latinoamericana de Investigadores de la Comunicación. Es autor del libro Arqueología de los estudios culturales de audiencia, más de 20 artículos científicos y coordinador de cinco libros colectivos.",
+        "foto":"http://comunicacionculturaysociedad.org/public/img/team/Jeronimo.png",
+        "correo":"jeronimo.repoll@gmail.com"
+    },
+    {
+        "id":3,
+        "nombre":"Guadalupe Cárdenas",
+        "cargo":"Diseñadora",
+        "semblanza1":"Licenciada en Diseño Gráfico por la Universidad del Estado de México (UAEMéx), inicio su carrera profesional como diseñadora web en el portal de internet Zona52.com, posteriormente se incorporó a la Oficina de Asesoría; adjunta a la Oficina de Rectoría de la UAEMéx desarrollando proyectos web y editoriales, trabajó en el Departamento de Comunicación Social de la Asociación Nacional de Universidades e Instituciones de Educación Superior de la R.M. (ANUIES); tiene una especialidad en Diseño Editorial por la Escuela de Diseño del Instituto Nacional de Bellas Artes; ha sido Supervisora de Diseño de forma interna en Ediciones Castillo y diagramadora externa en Mcmllan Education; ha trabajado de forma independiente como diagramadora editorial en diversos proyectos y actualmente colabora para ANUIES, Cámara de Diputados, editorial Mcmillan Education y Editorial Tintable; alternando lo anterior como diseñadora para la agencia LACA.",
+        "foto":"http://comunicacionculturaysociedad.org/public/img/team/Guadalupe.png",
+        "correo": "guadalupe.tintable@gmail.com"
+    },
+    {
+        "id":4,
+        "nombre":"Diana Chávez",
+        "cargo":"Comunicóloga",
+        "semblanza1":"Ha colaborado en el Festival Internacional del Libro y la Lectura Semillas con el equipo de organización y logística, redes sociales, coordinación de voluntarios y servicio social.  Ha sido autora de artículos para un blog de difusión cultural y actualmente labora en la Asociación Civil  Comunicación, Cultura y Sociedad donde ejerce como coordinadora en el área de servicio social y prácticas profesionales.",
+        "foto":"http://comunicacionculturaysociedad.org/public/img/team/perfiltema.png",
+        "correo":""
+    },
+    {
+        "id":5,
+        "nombre":"Carmina Salas",
+        "cargo":"Diseñadora",
+        "semblanza1":"Carmina B. Salas Ángeles, es licenciada en Comunicación y Cultura con mención honorífica por la Universidad Autónoma de la Ciudad de México (UACM). Entre las áreas en las que se desarrollo profesionalmente destaca la fotografía y el diseño editorial. Es editora y coautora del libro La Danza del Sol-Tonal Mitotianiliztli, Encuentros de resistencia intercultural, el cual fue acreedor del programa de Apoyo a las Culturas Municipales y  Comunitarias, (PACMyC, 2016), otorgado por la Secretaría de Cultura de la Ciudad de México. Tiene una especialidad en Diseño Editorial del instituto Nacional de Bellas Artes y Literatura (INBAL, 2019-2020). Participo en La Fabrica de Producción Editorial con el proyecto En voz de voz. Colección de cuentos de tradición oral indígena mexicana, taller que imparte el Centro Multimedia del Centro Nacional de las Artes (2020, CENART), un proyecto que continua en desarrollo. Actualmente forma parte del equipo Las Nomeolvides, estudio que brinda servicios editoriales enfocados a la cultura, el arte y la poesía; igualmente forma parte del  equipo de la Editorial Tintable como diseñadora editorial. De forma independiente tiene participación en coordinación y diseño de diversos proyectos editoriales, sobre todo en libros fotográficos: con su casa de estudio, Plantel San Lorenzo Tezonco, el Proyecto Foto-Libro Campamento Intercultural México-América Latina y Colombia-América Latina, en el cual fungió como coordinadora en diseño (UACM, 2016-2019). También, en formación y diseño en el proyecto Disco-Libro del Largometraje documental Cantadoras. Memorias de Vida y Muerte en Colombia (2018-2019). En edición  fotográfica para el libro Las Amarguras. Amor y alegría de un pueblo (2014). Coordinación y asesoría en procesos editoriales con La Revista Sensacional (2021), entre otros.",
+        "foto":"http://comunicacionculturaysociedad.org/public/img/team/perfiltema.png",
+        "correo":"carmina.estudiosaga@gmail.com"
+    },
+    {
+        "id":6,
+        "nombre":"Roberto Barajas",
+        "cargo":"Secretario de redacción",
+        "semblanza1":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci officiis, blanditiis autem repellat veniam culpa odio quas nam necessitatibus nulla ut aut laborum maxime commodi mollitia. Sequi, quo labore.",
+        "foto":"http://comunicacionculturaysociedad.org/public/img/team/perfiltema.png",
+        "correo":"carmina.estudiosaga@gmail.com"
+    }
+]
